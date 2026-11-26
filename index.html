@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sônia Divart - Bonecas de Pano Artesanais</title>
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts: Quicksand para corpo e Playfair Display para títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- JS de Interações -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header dinâmico carregado via include.js -->
+    <div id="header"></div>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section class="hero-home">
+            <div class="hero-home-conteudo container">
+                <h1>Mais que uma boneca.<br>Uma companheira para a infância.</h1>
+                <p>Costuradas à mão com tecidos 100% algodão e enchimento antialérgico. Criadas para abraçar com segurança e despertar a imaginação através do brincar afetivo.</p>
+                <a href="bonecas.html" class="btn-principal">Conhecer Coleções</a>
+            </div>
+        </section>
+
+        <!-- 2. Faixa de Diferenciais -->
+        <section class="secao-padding">
+            <div class="container">
+                <div class="diferenciais-grid">
+                    <!-- Diferencial 1: Costura Spool -->
+                    <div class="diferencial-card">
+                        <div class="diferencial-icone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M6 3h12M6 21h12M8 3v18M16 3v18M8 7h8M8 11h8M8 15h8" />
+                            </svg>
+                        </div>
+                        <h3>Ponto a Ponto</h3>
+                        <p>Cada peça é única, costurada artesanalmente com pontos reforçados para durar por muitas brincadeiras.</p>
+                    </div>
+                    
+                    <!-- Diferencial 2: Toque antialérgico -->
+                    <div class="diferencial-card">
+                        <div class="diferencial-icone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </div>
+                        <h3>Toque Antialérgico</h3>
+                        <p>Materiais selecionados, tecidos 100% algodão e fibra siliconada pura, totalmente seguros para abraçar.</p>
+                    </div>
+
+                    <!-- Diferencial 3: Hanger -->
+                    <div class="diferencial-card">
+                        <div class="diferencial-icone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 7a2.5 2.5 0 1 1 2-2.5c0 .5-.2 1-.5 1.5L12 9" />
+                                <path d="M12 9 3.5 15.5a1.5 1.5 0 0 0 .5 2.5h16a1.5 1.5 0 0 0 .5-2.5L12 9z" />
+                            </svg>
+                        </div>
+                        <h3>Roupinhas Interativas</h3>
+                        <p>Vestidos e laços fáceis de trocar, estimulando a coordenação motora e abrindo asas para a criatividade.</p>
+                    </div>
+
+                    <!-- Diferencial 4: Embalagem / Gift -->
+                    <div class="diferencial-card">
+                        <div class="diferencial-icone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="8" width="18" height="4" rx="1" />
+                                <path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" />
+                                <path d="M7.5 8a2.5 2.5 0 0 1 0-5A2.5 2.5 0 0 1 12 5.5a2.5 2.5 0 0 1 4.5-2.5 2.5 2.5 0 0 1 0 5z" />
+                            </svg>
+                        </div>
+                        <h3>Carinho na Entrega</h3>
+                        <p>Enviamos em embalagem perfumada e decorada, pronta para presentear e arrancar sorrisos desde a abertura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Vitrine de Destaques (Coleções) -->
+        <section id="produtos" class="secao-padding secao-alternada">
+            <div class="container">
+                <div class="secao-intro">
+                    <h2>Feitas para colecionar e vestir</h2>
+                    <p>Escolha o modelo que mais combina com a sua criança ou monte um guarda-roupa de acessórios adicionais:</p>
+                </div>
+                
+                <div class="galeria-grid">
+                    <!-- Card 1: Bonecas -->
+                    <div class="card-produto">
+                        <div class="card-img-wrapper">
+                            <img src="image/bonecos_de_pano.jpg" alt="Coleção Alice - Bonecas Clássicas de Pano">
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Bonecas Clássicas</h3>
+                            <p>Companheiras de tecido macio com vestidos florais elegantes que parecem saídas de contos de fadas.</p>
+                            <div class="card-preco">A partir de R$ 149,90</div>
+                            <a href="bonecas.html" class="btn-principal">Ver Modelos</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Roupinhas -->
+                    <div class="card-produto">
+                        <div class="card-img-wrapper">
+                            <img src="image/maju-01.jpg" alt="Roupinhas e acessórios para bonecas">
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Roupinhas & Acessórios</h3>
+                            <p>Vestidos extras, sapatinhos e laços de cabelo. Perfeitos para trocar o visual e renovar as brincadeiras cotidianas.</p>
+                            <div class="card-preco">A partir de R$ 29,90</div>
+                            <a href="bonecas.html" class="btn-secundario">Ver Acessórios</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Personalizados -->
+                    <div class="card-produto">
+                        <div class="card-img-wrapper">
+                            <img src="image/maju-01.jpg" alt="Bonecas sob encomenda personalizadas">
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Projetos Sob Encomenda</h3>
+                            <p>Escolha o tom de pele, cor dos olhos, estilo do cabelo e estampa favorita para criar uma companheira parecida com a sua criança.</p>
+                            <div class="card-preco">Sob Consulta</div>
+                            <a href="contato.html" class="btn-principal">Fazer Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Nossa Essência (Teaser do Sobre) -->
+        <section class="secao-padding">
+            <div class="container">
+                <div class="split-container">
+                    <div class="split-imagem">
+                        <img src="image/maju-01.jpg" alt="Mãos da artesã Sônia trabalhando em uma boneca">
+                    </div>
+                    <div class="split-conteudo">
+                        <h2>Brinquedos com alma de verdade</h2>
+                        <p>Acreditamos que brinquedos artesanais carregam história. Ao contrário do plástico industrial, a boneca de pano é quente, macia, acolhedora e tem o cheiro do lar.</p>
+                        <p>Na Sônia Divart, criamos companheiras que guardam segredos, ouvem histórias e acompanham o crescimento dos pequenos com afeto e durabilidade.</p>
+                        <a href="sobre.html" class="btn-secundario">Conhecer Nosso Processo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Depoimentos (Prova Social) -->
+        <section class="secao-padding secao-alternada">
+            <div class="container">
+                <div class="secao-intro">
+                    <h2>O que dizem as mamães</h2>
+                </div>
+                
+                <div class="depoimentos-grid">
+                    <!-- Depoimento 1 -->
+                    <div class="depoimento-card">
+                        <span class="depoimento-aspas">“</span>
+                        <p class="depoimento-texto">A boneca Laura chegou impecável. O cheirinho da embalagem é maravilhoso e minha filha de 3 anos não larga ela por nada. O vestido é super fácil de trocar, ela passa o dia brincando!</p>
+                        <div class="depoimento-autor">
+                            <div class="depoimento-autor-iniciais">MS</div>
+                            <div class="depoimento-autor-info">
+                                <h4>Mariana S.</h4>
+                                <span>Mãe da Gabi (3 anos)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 2 -->
+                    <div class="depoimento-card">
+                        <span class="depoimento-aspas">“</span>
+                        <p class="depoimento-texto">Eu estava cansada de brinquedos de plástico que quebram à toa. A boneca da Sônia tem costuras muito reforçadas, é linda e macia. Dá para ver o carinho em cada ponto. Vale muito a pena.</p>
+                        <div class="depoimento-autor">
+                            <div class="depoimento-autor-iniciais">CR</div>
+                            <div class="depoimento-autor-info">
+                                <h4>Camila R.</h4>
+                                <span>Mãe da Clara (5 anos)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. FAQ (Dúvidas Frequentes) -->
+        <section class="secao-padding">
+            <div class="container">
+                <div class="secao-intro">
+                    <h2>Dúvidas Frequentes</h2>
+                </div>
+
+                <div class="faq-container">
+                    <!-- Pergunta 1 -->
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            As bonecas podem ser lavadas?
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Sim! Como são feitas 100% de algodão com enchimento antialérgico, podem ser lavadas manualmente. Junto com a boneca, enviamos um guia com instruções passo a passo para que ela permaneça sempre limpa e cheirosa de forma segura.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 2 -->
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            O enchimento é seguro para bebês?
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Com certeza. O enchimento é de fibra siliconada virgem de alta qualidade, que é naturalmente antialérgica, antimofo e não junta poeira. Além disso, as bonecas clássicas não contam com botões ou partes pequenas coladas que possam se desprender, sendo ideais para qualquer idade.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 3 -->
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            Como funciona a personalização?
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Você pode escolher o tom de pele, cor dos olhos, tipo de cabelo (lã ou algodão) e estampas principais das roupinhas. Para encomendar uma boneca personalizada, basta clicar no botão de contato ou nos chamar no WhatsApp. Nós definimos todos os detalhes com você antes de começar a costurar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer dinâmico carregado via include.js -->
+    <div id="footer"></div>
+
+    <!-- JS de inclusão dinâmica -->
+    <script src="js/include.js"></script>
+</body>
+</html>
